@@ -1,0 +1,17 @@
+/* @import url('./stylesnull.css'); */
+
+/* Default */
+
+:root {
+	--font-family: "Roboto", sans-serif;
+	--second-family: "Raleway", sans-serif;
+}
+
+/* Header */
+
+.logo {
+	text-transform: uppercase;
+	color: blueviolet;
+	font-family: var(--second-family);
+	font-weight: 700;
+}
