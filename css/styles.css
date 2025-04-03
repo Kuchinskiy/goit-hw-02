@@ -1,14 +1,12 @@
-/* @import url('./stylesnull.css'); */
+@import url('./stylesnull.css');
 
 /* Default */
-
 :root {
 	--font-family: "Roboto", sans-serif;
 	--second-family: "Raleway", sans-serif;
 }
 
 /* Header */
-
 .logo {
 	text-transform: uppercase;
 	color: blueviolet;
