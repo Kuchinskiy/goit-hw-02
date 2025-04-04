@@ -3,8 +3,10 @@ body {
 	font-family: "Roboto", sans-serif;
 	background-color: #F6F6FA;
 	/* padding: 40px 40px 40px 40px; */
+	color: #434455;
 	font-size: 16px;
 	font-weight: 400;
+	line-height: 1.5;
 }
 
 *,
@@ -30,10 +32,10 @@ a {
 ul, ol {
 	margin-top: 0;
 	margin-bottom: 0;
-	list-style: none;
+	list-style-type: none;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -42,7 +44,7 @@ h6,
 p {
 	font-weight: inherit;
 	font-size: inherit;
-}
+} */
 
 img {
 	height: auto;
