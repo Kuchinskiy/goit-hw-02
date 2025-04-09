@@ -4,7 +4,7 @@
 
 :root {
 	--second-family: "Raleway", sans-serif;
-	--color-title-main: #2e2f42;
+	--main-color-title: #2e2f42;
 }
 
 /* Header */
@@ -33,12 +33,48 @@
 	font-weight: 500;
 }
 
-.info-link {
+.contact-link {
 	font-weight: 400;
 }
 
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+	color: #404bbf;
+}
 
+.contact-list .contact-link:hover,
+.contact-list .contact-link:focus {
+	color: #404bbf;
+}
 
 /* Main */
+
+.hero {
+	background-color: #2e2f42;
+}
+
+.title {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.07;
+	text-align: center;
+	color: #ffffff;
+}
+
+.button {
+	width: 169px;
+	height: 56px;
+	cursor: pointer;
+	padding: 16px 22px;
+	border-radius: 4px;
+
+	color: #ffffff;
+	font-weight: 500;
+	letter-spacing: 0.04em;
+
+	background-color:  #4d5ae5;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
 
 /* Footer */
