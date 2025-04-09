@@ -3,10 +3,11 @@ body {
 	font-family: "Roboto", sans-serif;
 	background-color: #F6F6FA;
 	padding: 40px 40px 40px 40px;
+
 	color: #434455;
 	font-size: 16px;
-	font-weight: 400;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 *,
@@ -15,7 +16,6 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	box-sizing: border-box;
 }
 
 a,

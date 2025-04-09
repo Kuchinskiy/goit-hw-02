@@ -1,15 +1,44 @@
 @import url('./stylesnull.css');
 
 /* Default */
+
 :root {
-	--font-family: "Roboto", sans-serif;
 	--second-family: "Raleway", sans-serif;
+	--color-title-main: #2e2f42;
 }
 
 /* Header */
+
 .logo {
-	text-transform: uppercase;
-	color: blueviolet;
-	font-family: var(--second-family);
+	font-size: 18px;
 	font-weight: 700;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	font-family: var(--second-family);
 }
+
+.logo-part-one {
+	color: #4d5ae5;
+}
+
+.logo-part-two {
+	color: #2e2f42;
+}
+
+/* Navigation */
+
+.nav-link {
+	color: #2e2f42;
+	font-weight: 500;
+}
+
+.info-link {
+	font-weight: 400;
+}
+
+
+
+/* Main */
+
+/* Footer */
