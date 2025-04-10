@@ -34,10 +34,12 @@
 
 .nav-link {
 	color: #2e2f42;
+	font-size: 16px;
 	font-weight: 500;
 }
 
 .contact-link {
+	font-size: 16px;
 	font-weight: 400;
 }
 
@@ -80,10 +82,38 @@
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* Section 1 */
-.features {
+/* Section 1 - 2 - 3 --> subtitle*/
+
+.section-features {
 	background-color: #ffffff;
 }
 
+.subtitle {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	color: var(--main-color-title);
+}
+
+/* Section 2 - 3 --> section-title*/
+
+.section-team {
+	background-color: #f4f4fd;
+}
+
+.section-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.11;
+	text-align: center;
+	color: var(--main-color-title);
+}
+
+/* Section 3 */
+
+.section-portfolio {
+	background-color: #ffffff;
+}
 
 /* Footer */
+
