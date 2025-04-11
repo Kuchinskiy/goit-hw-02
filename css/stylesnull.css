@@ -7,14 +7,17 @@ body {
 	color: #434455;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+
+	box-sizing: border-box;
 }
 
 *,
-::before,
-::after {
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: inherit;
 }
 
 a,
