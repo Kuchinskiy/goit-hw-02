@@ -2,6 +2,7 @@ html,
 body {
 	font-family: "Roboto", sans-serif;
 	background-color: #E5E5E5;
+	padding: 40px;
 
 	color: #434455;
 	line-height: 1.5;
