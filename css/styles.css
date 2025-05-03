@@ -4,7 +4,7 @@
 
 :root {
 	--second-family: "Raleway", sans-serif;
-	--main-color-title: #2e2f42;
+	--main-color-subtitle: #2e2f42;
 }
 
 /* Header */
@@ -16,7 +16,7 @@
 .logo {
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 1.17;
+	line-height: 1.16;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	font-family: var(--second-family);
@@ -92,7 +92,7 @@ subtitle <<-- for #1, #2, #3 sections*/
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.2;
-	color: var(--main-color-title);
+	color: var(--main-color-subtitle);
 }
 
 /* Section#2 Our Team
@@ -106,7 +106,7 @@ section-title <<-- for #2, #3 sections*/
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
-	color: var(--main-color-title);
+	color: var(--main-color-subtitle);
 }
 
 /* Section#3 Our Portfolio*/
