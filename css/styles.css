@@ -1,17 +1,54 @@
 /* @import url('./stylesnull.css'); */
 
-/* Default */
+
+/* Default settings */
 
 :root {
 	--second-family: "Raleway", sans-serif;
 	--main-color-subtitle: #2e2f42;
 }
 
-/* Header */
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #FFFFFF;
+	padding: 40px;
 
-.header-page {
-	background-color: #ffffff;
+	color: #434455;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a,
+::before,
+::after {
+	display: inline-block;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+img {
+	height: auto;
+	display: block;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+/* Header */
 
 .logo {
 	font-size: 18px;
