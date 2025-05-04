@@ -43,12 +43,42 @@ ul, ol {
 	list-style-type: none;
 }
 
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-weight: inherit;
+	font-size: inherit;
+} */
+
 img {
 	height: auto;
 	display: block;
 	max-width: 100%;
 	vertical-align: top;
 }
+
+/* .visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+   position: absolute;
+
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+} */
+ 
 
 /* Header */
 
@@ -75,6 +105,8 @@ img {
 	color: #2e2f42;
 	font-size: 16px;
 	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .contact-address {
@@ -84,6 +116,8 @@ img {
 .contact-link {
 	font-size: 16px;
 	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .nav-list .nav-link:hover,
@@ -180,4 +214,9 @@ section-title <<-- for #3, #4 sections*/
 .footer .logo-part-two,
 .footer .text-info {
 	color: #f4f4fd;
+}
+
+.footer .text-info {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
