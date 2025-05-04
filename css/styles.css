@@ -1,84 +1,19 @@
-/* @import url('./stylesnull.css'); */
-
 
 /* Default settings */
-
-/* :root {
-	--second-family: "Raleway", sans-serif;
-	--main-color-subtitle: #2e2f42;
-} */
 
 body {
 	font-family: "Roboto", sans-serif;
 	background-color: #FFFFFF;
-	/* padding: 40px; */
-
 	color: #434455;
-	/* line-height: 1.5; */
-	/* letter-spacing: 0.02em; */
 }
 
-/* *,
-*::before,
-*::after {
-	margin: 0;
-	padding: 0;
-	border: 0;
-
-	outline: 1px solid red;
-} */
-
-/* a,
-::before,
-::after {
-	display: inline-block;
-} */
-
 a {
-	/* color: inherit; */
 	text-decoration: none;
 }
 
 ul, ol {
 	list-style-type: none;
 }
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	font-weight: inherit;
-	font-size: inherit;
-} */
-
-/* img {
-	height: auto;
-	display: block;
-	max-width: 100%;
-	vertical-align: top;
-} */
-
-/* .visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-   position: absolute;
-
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
-
-   white-space: nowrap;
-
-   clip-path: inset(100%);
-   clip: rect(0 0 0 0);
-   overflow: hidden;
-} */
-
 
 /* Header */
 
@@ -144,19 +79,13 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
-	/* width: 169px; */
-	/* height: 56px; */
-	cursor: pointer;
-	/* padding: 16px 22px; */
-	/* border-radius: 4px; */
-
 	color: #ffffff;
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 
+	cursor: pointer;
 	background-color:  #4d5ae5;
-	/* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
 }
 
 .button:hover,
