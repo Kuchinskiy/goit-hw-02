@@ -14,8 +14,8 @@ body {
 	padding: 40px;
 
 	color: #434455;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+	/* line-height: 1.5; */
+	/* letter-spacing: 0.02em; */
 }
 
 *,
@@ -24,6 +24,8 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
+
+	outline: 1px solid red;
 }
 
 a,
@@ -53,7 +55,7 @@ img {
 .logo {
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 1.16;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	font-family: var(--second-family);
@@ -75,16 +77,17 @@ img {
 	font-weight: 500;
 }
 
+.contact-address {
+	font-style: normal;
+}
+
 .contact-link {
 	font-size: 16px;
 	font-weight: 400;
 }
 
 .nav-list .nav-link:hover,
-.nav-list .nav-link:focus {
-	color: #404bbf;
-}
-
+.nav-list .nav-link:focus,
 .contact-list .contact-link:hover,
 .contact-list .contact-link:focus {
 	color: #404bbf;
@@ -92,6 +95,7 @@ img {
 
 /* Main */
 
+/* Section#1 Hero */
 .hero-page {
 	background-color: #2e2f42;
 }
@@ -101,6 +105,7 @@ img {
 	line-height: 1.07;
 	text-align: center;
 	color: #ffffff;
+	letter-spacing: 0.02em;
 }
 
 .button {
@@ -112,6 +117,7 @@ img {
 
 	color: #ffffff;
 	font-weight: 500;
+	line-height: 1.5;
 	letter-spacing: 0.04em;
 
 	background-color:  #4d5ae5;
@@ -123,22 +129,26 @@ img {
 	background-color: #404bbf;
 }
 
-/* Section#1 Our advantages
-subtitle <<-- for #1, #2, #3 sections*/
-
-.section-features {
-	background-color: #ffffff;
-}
+/* Section#2 Our Advantages
+subtitle & desc-info <<-- for #2, #3, #4 sections*/
 
 .subtitle {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
 	color: var(--main-color-subtitle);
 }
 
-/* Section#2 Our Team
-section-title <<-- for #2, #3 sections*/
+.desc-info {
+	color: #434455;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+/* Section#3 Our Team
+section-title <<-- for #3, #4 sections*/
 
 .section-team {
 	background-color: #f4f4fd;
@@ -148,14 +158,18 @@ section-title <<-- for #2, #3 sections*/
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
 	color: var(--main-color-subtitle);
 }
 
-/* Section#3 Our Portfolio*/
-
-.section-portfolio {
+.team-item {
 	background-color: #ffffff;
 }
+
+/* Section#4 Our Portfolio*/
+
+
 
 /* Footer */
 
@@ -163,10 +177,7 @@ section-title <<-- for #2, #3 sections*/
 	background-color:  #2e2f42;
 }
 
-.footer .logo-part-two {
-	color: #f4f4fd;
-}
-
-.text-info {
+.footer .logo-part-two,
+.footer .text-info {
 	color: #f4f4fd;
 }
